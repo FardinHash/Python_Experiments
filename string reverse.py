@@ -8,5 +8,5 @@ def reverse(string):
     return reverse
 
 
-reversed_string= reverse(string)  #reverse of given string
-print('Reversed String is: ', reversed_string)  #result
+reversed= reverse(string)  #reverse of given string
+print('Reversed String is: ', reversed)  #result
