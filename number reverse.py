@@ -1,4 +1,4 @@
-n= int(input('Enter the number: '))
+n= int(input('Enter the number: '))  #take input from user
 
 def reverse_num(number):
     reverse= 0
@@ -9,5 +9,6 @@ def reverse_num(number):
     return reverse
 
 
-reverse= reverse_num(n)
-print('Reversed Number is: ', reverse)
+reverse= reverse_num(n)  #reverse of given number
+
+print('Reversed Number is: ', reverse)  #result
