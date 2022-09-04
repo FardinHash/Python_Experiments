@@ -1,6 +1,6 @@
 n= int(input('Enter the number: '))  #take input from user
 
-def reverse_num(number):
+def reverse(number):
     reverse= 0
     while (number>0):
         last_digit= number%10
@@ -9,6 +9,6 @@ def reverse_num(number):
     return reverse
 
 
-reverse= reverse_num(n)  #reverse of given number
+reversed= reverse(n)  #reverse of given number
 
-print('Reversed Number is: ', reverse)  #result
+print('Reversed Number is: ', reversed)  #result
