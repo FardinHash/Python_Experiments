@@ -1,4 +1,4 @@
-string = input('Enter the string: ')
+string = input('Enter the string: ')  #take input from user
 
 def reverse(string):
     reverse= ''
@@ -8,5 +8,5 @@ def reverse(string):
     return reverse
 
 
-reversed_string= reverse(string)
-print('Reversed String is: ', reversed_string)
+reversed_string= reverse(string)  #reverse of given string
+print('Reversed String is: ', reversed_string)  #result
