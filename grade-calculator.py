@@ -1,11 +1,13 @@
-print('Enter your marks:')
+print('Enter your marks:')  
+
+#marks input
 cour1= int(input('Course 1: '))
 cour2= int(input('Course 2: '))
 cour3= int(input('Course 3: '))
 cour4= int(input('Course 4: '))
 
 
-result= (cour1 + cour2 + cour3 + cour4)/4
+result= (cour1 + cour2 + cour3 + cour4)/4  #result with average
 
 if result>= 90:
     print('Grade: A')
