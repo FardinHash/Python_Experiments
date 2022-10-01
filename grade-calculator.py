@@ -7,8 +7,9 @@ cour3= int(input('Course 3: '))
 cour4= int(input('Course 4: '))
 
 
-result= (cour1 + cour2 + cour3 + cour4)/4  #result with average
+result= (cour1 + cour2 + cour3 + cour4)/4  #result calculated with average
 
+#calculator
 if result>= 90:
     print('Grade: A')
 elif result>= 80:
